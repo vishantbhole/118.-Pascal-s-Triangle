@@ -21,3 +21,7 @@ class Solution(object):
         return result
 
 
+if __name__ == "__main__":
+    obj = Solution()
+    numRows = 5
+    print(obj.generate(numRows))
